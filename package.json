@@ -1,0 +1,39 @@
+{
+  "name": "@enrag/vuetify-numeric-text-field-unit",
+  "version": "1.0.0",
+  "description": "Vuetify component for numeric inputs and numeric inputs with units",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsup --dts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue 3",
+    "Vuetify 3",
+    "numeric",
+    "text",
+    "field",
+    "unit"
+  ],
+  "author": "ENRAG GmbH",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "vuetify": "^3.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielBuchberger/vuetify-numeric-text-field-unit.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
