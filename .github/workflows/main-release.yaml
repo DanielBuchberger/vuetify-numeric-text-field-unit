@@ -51,7 +51,7 @@ jobs:
 
           # If there's no latest release (meaning it's the first release)
           if [[ -z "${{ env.TAG_NAME }}" ]] || [[ "${{ env.TAG_NAME }}" == "null" ]]; then
-            NEW_TAG="v0.0.1"
+            NEW_TAG="v1.1.0"
             TYPE="PATCH"
             echo "type=$TYPE" >> $GITHUB_OUTPUT
             echo "tag=$NEW_TAG" >> $GITHUB_OUTPUT
